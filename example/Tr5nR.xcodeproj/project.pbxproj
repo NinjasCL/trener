@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A5508681654D6A900A2476F /* DoubleInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5508581654D6A900A2476F /* DoubleInputTableViewCell.m */; };
+		9A55086C1654D6A900A2476F /* PickerInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5508601654D6A900A2476F /* PickerInputTableViewCell.m */; };
+		9A55086D1654D6A900A2476F /* SimplePickerInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5508621654D6A900A2476F /* SimplePickerInputTableViewCell.m */; };
+		9A5508AC1654DB9300A2476F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5508AB1654DB9300A2476F /* QuartzCore.framework */; };
+		9A76F2B716549B9100F5144E /* RealizarViaje.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76F2B616549B9100F5144E /* RealizarViaje.m */; };
+		9A76F2BA16549BA300F5144E /* EditarDatos.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76F2B916549BA300F5144E /* EditarDatos.m */; };
+		9A9F8C8E166D9B5E00B0253E /* Feriado.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F8C8D166D9B5E00B0253E /* Feriado.m */; };
+		9A9F8C91166D9B5E00B0253E /* Tarifa.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F8C90166D9B5E00B0253E /* Tarifa.m */; };
+		9A9F8C94166D9B5E00B0253E /* Usuario.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F8C93166D9B5E00B0253E /* Usuario.m */; };
+		9A9F8C97166D9B5E00B0253E /* Rango.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F8C96166D9B5E00B0253E /* Rango.m */; };
+		9AA9F235165550E3003A8A2E /* EstacionPickerInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA9F234165550E3003A8A2E /* EstacionPickerInputTableViewCell.m */; };
+		9AD66BA5166EB11A00DDE176 /* Estacion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD66BA4166EB11A00DDE176 /* Estacion.m */; };
+		9AD66BAB166EBC6700DDE176 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD66BAA166EBC6700DDE176 /* libsqlite3.0.dylib */; };
+		9AD66BB6166EC1B500DDE176 /* Estaciones.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD66BB5166EC1B500DDE176 /* Estaciones.m */; };
+		9AD66BBB166ECABE00DDE176 /* Usuarios.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD66BBA166ECABD00DDE176 /* Usuarios.m */; };
+		9AD6FD0116750056006B6DA5 /* Horario.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6FD0016750056006B6DA5 /* Horario.m */; };
+		9AD6FD05167501E2006B6DA5 /* Horarios.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6FD04167501E2006B6DA5 /* Horarios.m */; };
+		9ADCC7DA166F9CB100777CE0 /* Feriados.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADCC7D9166F9CB100777CE0 /* Feriados.m */; };
+		9ADCC7DD166FA72600777CE0 /* Rangos.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADCC7DC166FA72500777CE0 /* Rangos.m */; };
+		9ADCC7E4166FE3F300777CE0 /* Operaciones.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADCC7E3166FE3F200777CE0 /* Operaciones.m */; };
+		9ADDECC01678C448004AAB76 /* Tarifas.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADDECBF1678C448004AAB76 /* Tarifas.m */; };
+		9ADE957316781E84003D71A9 /* ProximosTrenes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE957216781E84003D71A9 /* ProximosTrenes.m */; };
+		9ADE957716781E99003D71A9 /* Costos.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE957616781E99003D71A9 /* Costos.m */; };
+		9AE920F3167005C300EE938F /* estaciones.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9AE920ED167005C200EE938F /* estaciones.csv */; };
+		9AE920F4167005C300EE938F /* feriados.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9AE920EE167005C200EE938F /* feriados.csv */; };
+		9AE920F5167005C300EE938F /* horarios.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9AE920EF167005C300EE938F /* horarios.csv */; };
+		9AE920F6167005C300EE938F /* tr5nr.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 9AE920F0167005C300EE938F /* tr5nr.sqlite */; };
+		9AE920F7167005C300EE938F /* Tr5nR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AE920F1167005C300EE938F /* Tr5nR.xcdatamodeld */; };
+		9AFEDBF016497BA50026FE77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFEDBEF16497BA50026FE77 /* UIKit.framework */; };
+		9AFEDBF216497BA50026FE77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFEDBF116497BA50026FE77 /* Foundation.framework */; };
+		9AFEDBF416497BA50026FE77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFEDBF316497BA50026FE77 /* CoreGraphics.framework */; };
+		9AFEDBFA16497BA50026FE77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AFEDBF816497BA50026FE77 /* InfoPlist.strings */; };
+		9AFEDBFC16497BA50026FE77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEDBFB16497BA50026FE77 /* main.m */; };
+		9AFEDC0016497BA50026FE77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEDBFF16497BA50026FE77 /* AppDelegate.m */; };
+		9AFEDC0216497BA50026FE77 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AFEDC0116497BA50026FE77 /* Default.png */; };
+		9AFEDC0416497BA50026FE77 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AFEDC0316497BA50026FE77 /* Default@2x.png */; };
+		9AFEDC0616497BA50026FE77 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AFEDC0516497BA50026FE77 /* Default-568h@2x.png */; };
+		9AFEDC0916497BA50026FE77 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFEDC0716497BA50026FE77 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A5508571654D6A900A2476F /* DoubleInputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleInputTableViewCell.h; sourceTree = "<group>"; };
+		9A5508581654D6A900A2476F /* DoubleInputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleInputTableViewCell.m; sourceTree = "<group>"; };
+		9A55085F1654D6A900A2476F /* PickerInputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerInputTableViewCell.h; sourceTree = "<group>"; };
+		9A5508601654D6A900A2476F /* PickerInputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerInputTableViewCell.m; sourceTree = "<group>"; };
+		9A5508611654D6A900A2476F /* SimplePickerInputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePickerInputTableViewCell.h; sourceTree = "<group>"; };
+		9A5508621654D6A900A2476F /* SimplePickerInputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePickerInputTableViewCell.m; sourceTree = "<group>"; };
+		9A5508AB1654DB9300A2476F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9A76F2B516549B9100F5144E /* RealizarViaje.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealizarViaje.h; sourceTree = "<group>"; };
+		9A76F2B616549B9100F5144E /* RealizarViaje.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealizarViaje.m; sourceTree = "<group>"; };
+		9A76F2B816549BA300F5144E /* EditarDatos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditarDatos.h; sourceTree = "<group>"; };
+		9A76F2B916549BA300F5144E /* EditarDatos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditarDatos.m; sourceTree = "<group>"; };
+		9A9F8C8C166D9B5E00B0253E /* Feriado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feriado.h; sourceTree = "<group>"; };
+		9A9F8C8D166D9B5E00B0253E /* Feriado.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feriado.m; sourceTree = "<group>"; };
+		9A9F8C8F166D9B5E00B0253E /* Tarifa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tarifa.h; sourceTree = "<group>"; };
+		9A9F8C90166D9B5E00B0253E /* Tarifa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tarifa.m; sourceTree = "<group>"; };
+		9A9F8C92166D9B5E00B0253E /* Usuario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Usuario.h; sourceTree = "<group>"; };
+		9A9F8C93166D9B5E00B0253E /* Usuario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Usuario.m; sourceTree = "<group>"; };
+		9A9F8C95166D9B5E00B0253E /* Rango.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rango.h; sourceTree = "<group>"; };
+		9A9F8C96166D9B5E00B0253E /* Rango.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rango.m; sourceTree = "<group>"; };
+		9AA9F233165550E3003A8A2E /* EstacionPickerInputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstacionPickerInputTableViewCell.h; sourceTree = "<group>"; };
+		9AA9F234165550E3003A8A2E /* EstacionPickerInputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstacionPickerInputTableViewCell.m; sourceTree = "<group>"; };
+		9AD66BA3166EB11A00DDE176 /* Estacion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Estacion.h; sourceTree = "<group>"; };
+		9AD66BA4166EB11A00DDE176 /* Estacion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Estacion.m; sourceTree = "<group>"; };
+		9AD66BAA166EBC6700DDE176 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		9AD66BB4166EC1B500DDE176 /* Estaciones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Estaciones.h; sourceTree = "<group>"; };
+		9AD66BB5166EC1B500DDE176 /* Estaciones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Estaciones.m; sourceTree = "<group>"; };
+		9AD66BB8166EC9B600DDE176 /* DBConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBConfig.h; sourceTree = "<group>"; };
+		9AD66BB9166ECABD00DDE176 /* Usuarios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Usuarios.h; sourceTree = "<group>"; };
+		9AD66BBA166ECABD00DDE176 /* Usuarios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Usuarios.m; sourceTree = "<group>"; };
+		9AD6FCFF16750056006B6DA5 /* Horario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horario.h; sourceTree = "<group>"; };
+		9AD6FD0016750056006B6DA5 /* Horario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Horario.m; sourceTree = "<group>"; };
+		9AD6FD03167501E2006B6DA5 /* Horarios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horarios.h; sourceTree = "<group>"; };
+		9AD6FD04167501E2006B6DA5 /* Horarios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Horarios.m; sourceTree = "<group>"; };
+		9ADCC7D8166F9CB100777CE0 /* Feriados.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feriados.h; sourceTree = "<group>"; };
+		9ADCC7D9166F9CB100777CE0 /* Feriados.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feriados.m; sourceTree = "<group>"; };
+		9ADCC7DB166FA72500777CE0 /* Rangos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rangos.h; sourceTree = "<group>"; };
+		9ADCC7DC166FA72500777CE0 /* Rangos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rangos.m; sourceTree = "<group>"; };
+		9ADCC7E2166FE3F200777CE0 /* Operaciones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operaciones.h; sourceTree = "<group>"; };
+		9ADCC7E3166FE3F200777CE0 /* Operaciones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operaciones.m; sourceTree = "<group>"; };
+		9ADCC7E5166FEE3400777CE0 /* TiposDia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiposDia.h; sourceTree = "<group>"; };
+		9ADDECBE1678C448004AAB76 /* Tarifas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tarifas.h; sourceTree = "<group>"; };
+		9ADDECBF1678C448004AAB76 /* Tarifas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tarifas.m; sourceTree = "<group>"; };
+		9ADE957116781E84003D71A9 /* ProximosTrenes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProximosTrenes.h; sourceTree = "<group>"; };
+		9ADE957216781E84003D71A9 /* ProximosTrenes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProximosTrenes.m; sourceTree = "<group>"; };
+		9ADE957516781E99003D71A9 /* Costos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Costos.h; sourceTree = "<group>"; };
+		9ADE957616781E99003D71A9 /* Costos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Costos.m; sourceTree = "<group>"; };
+		9AE920ED167005C200EE938F /* estaciones.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = estaciones.csv; sourceTree = "<group>"; };
+		9AE920EE167005C200EE938F /* feriados.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = feriados.csv; sourceTree = "<group>"; };
+		9AE920EF167005C300EE938F /* horarios.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horarios.csv; sourceTree = "<group>"; };
+		9AE920F0167005C300EE938F /* tr5nr.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = tr5nr.sqlite; sourceTree = "<group>"; };
+		9AE920F2167005C300EE938F /* Tr5nR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tr5nR.xcdatamodel; sourceTree = "<group>"; };
+		9AFEDBEB16497BA50026FE77 /* Tr5nR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tr5nR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFEDBEF16497BA50026FE77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9AFEDBF116497BA50026FE77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9AFEDBF316497BA50026FE77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9AFEDBF716497BA50026FE77 /* Tr5nR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tr5nR-Info.plist"; sourceTree = "<group>"; };
+		9AFEDBF916497BA50026FE77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AFEDBFB16497BA50026FE77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AFEDBFD16497BA50026FE77 /* Tr5nR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tr5nR-Prefix.pch"; sourceTree = "<group>"; };
+		9AFEDBFE16497BA50026FE77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AFEDBFF16497BA50026FE77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AFEDC0116497BA50026FE77 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9AFEDC0316497BA50026FE77 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9AFEDC0516497BA50026FE77 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9AFEDC0816497BA50026FE77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AFEDBE816497BA50026FE77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD66BAB166EBC6700DDE176 /* libsqlite3.0.dylib in Frameworks */,
+				9A5508AC1654DB9300A2476F /* QuartzCore.framework in Frameworks */,
+				9AFEDBF016497BA50026FE77 /* UIKit.framework in Frameworks */,
+				9AFEDBF216497BA50026FE77 /* Foundation.framework in Frameworks */,
+				9AFEDBF416497BA50026FE77 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A5508531654D67200A2476F /* PickerInputViews */ = {
+			isa = PBXGroup;
+			children = (
+				9A55085F1654D6A900A2476F /* PickerInputTableViewCell.h */,
+				9A5508601654D6A900A2476F /* PickerInputTableViewCell.m */,
+			);
+			name = PickerInputViews;
+			sourceTree = "<group>";
+		};
+		9A5508761654DA5300A2476F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AA9F233165550E3003A8A2E /* EstacionPickerInputTableViewCell.h */,
+				9AA9F234165550E3003A8A2E /* EstacionPickerInputTableViewCell.m */,
+				9A5508611654D6A900A2476F /* SimplePickerInputTableViewCell.h */,
+				9A5508621654D6A900A2476F /* SimplePickerInputTableViewCell.m */,
+				9A5508571654D6A900A2476F /* DoubleInputTableViewCell.h */,
+				9A5508581654D6A900A2476F /* DoubleInputTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9A76F21F16545B2A00F5144E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9ADCC7E5166FEE3400777CE0 /* TiposDia.h */,
+				9AD66BB8166EC9B600DDE176 /* DBConfig.h */,
+				9A9F8C8F166D9B5E00B0253E /* Tarifa.h */,
+				9A9F8C90166D9B5E00B0253E /* Tarifa.m */,
+				9ADDECBE1678C448004AAB76 /* Tarifas.h */,
+				9ADDECBF1678C448004AAB76 /* Tarifas.m */,
+				9A9F8C92166D9B5E00B0253E /* Usuario.h */,
+				9A9F8C93166D9B5E00B0253E /* Usuario.m */,
+				9AD66BB9166ECABD00DDE176 /* Usuarios.h */,
+				9AD66BBA166ECABD00DDE176 /* Usuarios.m */,
+				9A9F8C8C166D9B5E00B0253E /* Feriado.h */,
+				9A9F8C8D166D9B5E00B0253E /* Feriado.m */,
+				9ADCC7D8166F9CB100777CE0 /* Feriados.h */,
+				9ADCC7D9166F9CB100777CE0 /* Feriados.m */,
+				9AD66BA3166EB11A00DDE176 /* Estacion.h */,
+				9AD66BA4166EB11A00DDE176 /* Estacion.m */,
+				9AD66BB4166EC1B500DDE176 /* Estaciones.h */,
+				9AD66BB5166EC1B500DDE176 /* Estaciones.m */,
+				9A9F8C95166D9B5E00B0253E /* Rango.h */,
+				9A9F8C96166D9B5E00B0253E /* Rango.m */,
+				9ADCC7DB166FA72500777CE0 /* Rangos.h */,
+				9ADCC7DC166FA72500777CE0 /* Rangos.m */,
+				9ADCC7E2166FE3F200777CE0 /* Operaciones.h */,
+				9ADCC7E3166FE3F200777CE0 /* Operaciones.m */,
+				9AD6FCFF16750056006B6DA5 /* Horario.h */,
+				9AD6FD0016750056006B6DA5 /* Horario.m */,
+				9AD6FD03167501E2006B6DA5 /* Horarios.h */,
+				9AD6FD04167501E2006B6DA5 /* Horarios.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9A76F22016545B3700F5144E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A76F2B516549B9100F5144E /* RealizarViaje.h */,
+				9A76F2B616549B9100F5144E /* RealizarViaje.m */,
+				9A76F2B816549BA300F5144E /* EditarDatos.h */,
+				9A76F2B916549BA300F5144E /* EditarDatos.m */,
+				9ADE957116781E84003D71A9 /* ProximosTrenes.h */,
+				9ADE957216781E84003D71A9 /* ProximosTrenes.m */,
+				9ADE957516781E99003D71A9 /* Costos.h */,
+				9ADE957616781E99003D71A9 /* Costos.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9A76F28A1654978700F5144E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9AFEDC0116497BA50026FE77 /* Default.png */,
+				9AFEDC0316497BA50026FE77 /* Default@2x.png */,
+				9AFEDC0516497BA50026FE77 /* Default-568h@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9A76F2BF1654AB1600F5144E /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				9AFEDBF716497BA50026FE77 /* Tr5nR-Info.plist */,
+				9AFEDBFE16497BA50026FE77 /* AppDelegate.h */,
+				9AFEDBFF16497BA50026FE77 /* AppDelegate.m */,
+				9AFEDBF816497BA50026FE77 /* InfoPlist.strings */,
+				9AFEDBFB16497BA50026FE77 /* main.m */,
+				9AFEDBFD16497BA50026FE77 /* Tr5nR-Prefix.pch */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		9AE920EC167005C200EE938F /* Datos */ = {
+			isa = PBXGroup;
+			children = (
+				9AE920ED167005C200EE938F /* estaciones.csv */,
+				9AE920EE167005C200EE938F /* feriados.csv */,
+				9AE920EF167005C300EE938F /* horarios.csv */,
+				9AE920F0167005C300EE938F /* tr5nr.sqlite */,
+				9AE920F1167005C300EE938F /* Tr5nR.xcdatamodeld */,
+			);
+			path = Datos;
+			sourceTree = "<group>";
+		};
+		9AFEDBE016497BA50026FE77 = {
+			isa = PBXGroup;
+			children = (
+				9AFEDBF516497BA50026FE77 /* Tr5nR */,
+				9AFEDBEE16497BA50026FE77 /* Frameworks */,
+				9AFEDBEC16497BA50026FE77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AFEDBEC16497BA50026FE77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AFEDBEB16497BA50026FE77 /* Tr5nR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AFEDBEE16497BA50026FE77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AD66BAA166EBC6700DDE176 /* libsqlite3.0.dylib */,
+				9A5508AB1654DB9300A2476F /* QuartzCore.framework */,
+				9AFEDBEF16497BA50026FE77 /* UIKit.framework */,
+				9AFEDBF116497BA50026FE77 /* Foundation.framework */,
+				9AFEDBF316497BA50026FE77 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AFEDBF516497BA50026FE77 /* Tr5nR */ = {
+			isa = PBXGroup;
+			children = (
+				9A76F21F16545B2A00F5144E /* Models */,
+				9AE920EC167005C200EE938F /* Datos */,
+				9AFEDC0716497BA50026FE77 /* MainStoryboard.storyboard */,
+				9A76F28A1654978700F5144E /* Images */,
+				9A5508761654DA5300A2476F /* Views */,
+				9A76F22016545B3700F5144E /* View Controllers */,
+				9AFEDBF616497BA50026FE77 /* Supporting Files */,
+			);
+			path = Tr5nR;
+			sourceTree = "<group>";
+		};
+		9AFEDBF616497BA50026FE77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A5508531654D67200A2476F /* PickerInputViews */,
+				9A76F2BF1654AB1600F5144E /* Default */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AFEDBEA16497BA50026FE77 /* Tr5nR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFEDC0F16497BA50026FE77 /* Build configuration list for PBXNativeTarget "Tr5nR" */;
+			buildPhases = (
+				9AFEDBE716497BA50026FE77 /* Sources */,
+				9AFEDBE816497BA50026FE77 /* Frameworks */,
+				9AFEDBE916497BA50026FE77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tr5nR;
+			productName = Tr5nR;
+			productReference = 9AFEDBEB16497BA50026FE77 /* Tr5nR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AFEDBE216497BA50026FE77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Camilo Castro";
+			};
+			buildConfigurationList = 9AFEDBE516497BA50026FE77 /* Build configuration list for PBXProject "Tr5nR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9AFEDBE016497BA50026FE77;
+			productRefGroup = 9AFEDBEC16497BA50026FE77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AFEDBEA16497BA50026FE77 /* Tr5nR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AFEDBE916497BA50026FE77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFEDBFA16497BA50026FE77 /* InfoPlist.strings in Resources */,
+				9AFEDC0216497BA50026FE77 /* Default.png in Resources */,
+				9AFEDC0416497BA50026FE77 /* Default@2x.png in Resources */,
+				9AFEDC0616497BA50026FE77 /* Default-568h@2x.png in Resources */,
+				9AFEDC0916497BA50026FE77 /* MainStoryboard.storyboard in Resources */,
+				9AE920F3167005C300EE938F /* estaciones.csv in Resources */,
+				9AE920F4167005C300EE938F /* feriados.csv in Resources */,
+				9AE920F5167005C300EE938F /* horarios.csv in Resources */,
+				9AE920F6167005C300EE938F /* tr5nr.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AFEDBE716497BA50026FE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFEDBFC16497BA50026FE77 /* main.m in Sources */,
+				9AFEDC0016497BA50026FE77 /* AppDelegate.m in Sources */,
+				9A76F2B716549B9100F5144E /* RealizarViaje.m in Sources */,
+				9A76F2BA16549BA300F5144E /* EditarDatos.m in Sources */,
+				9A5508681654D6A900A2476F /* DoubleInputTableViewCell.m in Sources */,
+				9A55086C1654D6A900A2476F /* PickerInputTableViewCell.m in Sources */,
+				9A55086D1654D6A900A2476F /* SimplePickerInputTableViewCell.m in Sources */,
+				9AA9F235165550E3003A8A2E /* EstacionPickerInputTableViewCell.m in Sources */,
+				9A9F8C8E166D9B5E00B0253E /* Feriado.m in Sources */,
+				9A9F8C91166D9B5E00B0253E /* Tarifa.m in Sources */,
+				9A9F8C94166D9B5E00B0253E /* Usuario.m in Sources */,
+				9A9F8C97166D9B5E00B0253E /* Rango.m in Sources */,
+				9AD66BA5166EB11A00DDE176 /* Estacion.m in Sources */,
+				9AD66BB6166EC1B500DDE176 /* Estaciones.m in Sources */,
+				9AD66BBB166ECABE00DDE176 /* Usuarios.m in Sources */,
+				9ADCC7DA166F9CB100777CE0 /* Feriados.m in Sources */,
+				9ADCC7DD166FA72600777CE0 /* Rangos.m in Sources */,
+				9ADCC7E4166FE3F300777CE0 /* Operaciones.m in Sources */,
+				9AE920F7167005C300EE938F /* Tr5nR.xcdatamodeld in Sources */,
+				9AD6FD0116750056006B6DA5 /* Horario.m in Sources */,
+				9AD6FD05167501E2006B6DA5 /* Horarios.m in Sources */,
+				9ADE957316781E84003D71A9 /* ProximosTrenes.m in Sources */,
+				9ADE957716781E99003D71A9 /* Costos.m in Sources */,
+				9ADDECC01678C448004AAB76 /* Tarifas.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AFEDBF816497BA50026FE77 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AFEDBF916497BA50026FE77 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9AFEDC0716497BA50026FE77 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AFEDC0816497BA50026FE77 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AFEDC0D16497BA50026FE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AFEDC0E16497BA50026FE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AFEDC1016497BA50026FE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tarek Jury (LR7TGAU3NT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tr5nR/Tr5nR-Prefix.pch";
+				INFOPLIST_FILE = "Tr5nR/Tr5nR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "59C70E90-8AEF-4AF4-AAE4-6323C032E305";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9AFEDC1116497BA50026FE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tr5nR/Tr5nR-Prefix.pch";
+				INFOPLIST_FILE = "Tr5nR/Tr5nR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AFEDBE516497BA50026FE77 /* Build configuration list for PBXProject "Tr5nR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFEDC0D16497BA50026FE77 /* Debug */,
+				9AFEDC0E16497BA50026FE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFEDC0F16497BA50026FE77 /* Build configuration list for PBXNativeTarget "Tr5nR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFEDC1016497BA50026FE77 /* Debug */,
+				9AFEDC1116497BA50026FE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9AE920F1167005C300EE938F /* Tr5nR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9AE920F2167005C300EE938F /* Tr5nR.xcdatamodel */,
+			);
+			currentVersion = 9AE920F2167005C300EE938F /* Tr5nR.xcdatamodel */;
+			path = Tr5nR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9AFEDBE216497BA50026FE77 /* Project object */;
+}

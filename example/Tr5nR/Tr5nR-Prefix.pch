@@ -1,0 +1,31 @@
+//
+// Prefix header for all source files of the 'Tr5nR' target in the 'Tr5nR' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    // Para acceso global a la bd
+    #import <sqlite3.h>
+
+    // Para usar la versiòn corta de MagicalRecord
+    // Magical Record se me fue en collera
+    // Algun dia podre dominarlo,
+    // como estoy corto de tiempo, hare sqlite a la antigua
+    //#define MR_SHORTHAND
+    //#import "CoreData+MagicalRecord.h" // Para que este disponible en todo el proyecto
+
+
+    // Esto por lo del PickerView
+    // Ver despues
+
+    //#import "UIColor+Custom.h"
+
+#endif

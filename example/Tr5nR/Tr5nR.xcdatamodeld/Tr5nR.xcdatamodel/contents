@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="11G63" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Estacion" representedClassName="Estacion" syncable="YES">
+        <attribute name="codigo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="latitud" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitud" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tiempo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="tramo" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Feriado" representedClassName="Feriado" syncable="YES">
+        <attribute name="fecha" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="Horario" representedClassName="Horario" syncable="YES">
+        <attribute name="desde" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="hasta" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="tipo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Tarifa" representedClassName="Tarifa" syncable="YES">
+        <attribute name="tipo_horario" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="tipo_usuario" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="tramo_destino" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="tramo_origen" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Usuario" representedClassName="Usuario" syncable="YES">
+        <attribute name="tipo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Estacion" positionX="-1701" positionY="-693" width="128" height="150"/>
+        <element name="Feriado" positionX="-1460" positionY="-756" width="128" height="60"/>
+        <element name="Horario" positionX="-1703" positionY="-801" width="128" height="90"/>
+        <element name="Tarifa" positionX="-1460" positionY="-873" width="128" height="105"/>
+        <element name="Usuario" positionX="-1703" positionY="-867" width="128" height="60"/>
+    </elements>
+</model>

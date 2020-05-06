@@ -1,0 +1,42 @@
+# Trener Project Challenge
+
+This was a project originally made for _Software Construction_ undergraduate course (2012) at https://www.uvm.cl[Universidad de Viña del Mar].
+
+## Merval Metro System
+
+https://www.merval.cl[Merval (Metro Valparaíso)] is a train/metro system that travels between https://en.wikipedia.org/wiki/Valpara%C3%ADso[Valparaíso] to https://en.wikipedia.org/wiki/Limache[Limache].
+
+## Requirements
+
+The software must provide the following features.
+
+### Return the next train
+
+Given the current _hour_, _day_, _destination_ and _origin_ the software *must* return the nearest train that will travel from _origin_ to _destination_. 
+
+Additionally *should* return the total travel time.
+
+### Return the total travel cost
+
+Given the _hour_, _day_, _origin_, _destination_ and _user category_ the software *must* return the total travel cost.
+
+### Example
+
+image:https://user-images.githubusercontent.com/292738/81207266-4f381600-8f9b-11ea-9253-cf7cc7ea4273.png[Tr5nr in iOS]
+
+## Documentation
+
+Detailed documentation is available (in Spanish) at _docs_ directory. An example implementation was made using _XCode_ for _iPhone_ devices, available at _example_.
+
+## Database
+
+Some _csv_ files and a _sqlite_ database is provided with all the needed data to implement this software, available at _data_.
+
+## Challenge
+
+Implement this software in the stack that you are most proficient. Maybe a website with _React_ or an app with _React Native_.
+
+
+++++
+Made with <i class="fa fa-heart">&#9829;</i> by <a href="http://ninjas.cl" target="_blank">Ninjas.cl</a>.
+++++
