@@ -4,21 +4,28 @@ This was a project originally made for _Software Construction_ undergraduate cou
 
 ## Merval Metro System
 
-https://www.merval.cl[Merval (Metro Valparaíso)] is a train/metro system that travels between https://en.wikipedia.org/wiki/Valpara%C3%ADso[Valparaíso] to https://en.wikipedia.org/wiki/Limache[Limache].
+http://www.merval.cl[Merval (Metro Valparaíso)] is a train/metro system that travels between https://en.wikipedia.org/wiki/Valpara%C3%ADso[Valparaíso] to https://en.wikipedia.org/wiki/Limache[Limache].
 
 ## Requirements
 
 The software must provide the following features.
 
-### Return the next train
+### Must: Return the next train
 
 Given the current _hour_, _day_, _destination_ and _origin_ the software *must* return the nearest train that will travel from _origin_ to _destination_. 
 
-Additionally *should* return the total travel time.
-
-### Return the total travel cost
+### Must: Return the total travel cost
 
 Given the _hour_, _day_, _origin_, _destination_ and _user category_ the software *must* return the total travel cost.
+
+### Should: Optional Requirements 
+
+- Return the total travel time.
+- Show a list of near trains.
+- Show the prices for the other user categories.
+- Alert the user when a train is near the station.
+- Enable the user to set a default origin, destination.
+- Other quality of life improvements.
 
 ### Example
 
@@ -30,7 +37,7 @@ Detailed documentation is available (in Spanish) at _docs_ directory. An example
 
 ## Database
 
-Some _csv_ files and a _sqlite_ database is provided with all the needed data to implement this software, available at _data_.
+Some _csv_ files and a _sqlite_ database are provided with all the needed data to implement this software, available at _data_.
 
 ## Challenge
 
