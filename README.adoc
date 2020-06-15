@@ -38,6 +38,7 @@ Detailed documentation is available (in Spanish) at _docs_ directory. An example
 ## Database
 
 Some _csv_ files and a _sqlite_ database are provided with all the needed data to implement this software, available at _data_.
+For _React_ projects you can use https://github.com/agershun/alasql[AlaSQL]. Data is available as _trener.json_ or _trener.js_.
 
 ## Challenge
 
